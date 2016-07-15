@@ -2,3 +2,10 @@ What happens when you initialize a repository? Why do you need to do it?
 
 	The hidden directory .git is created, with a bunch of subdirectories inside.
 	Needs to be done so the file structure of the repository is ready to log the commits.
+	
+How is the staging area different from the working directory and the repository? 
+What value do you think it offers?
+
+	The staging area defines which filea(and directories?) will be affected by a commit, and so
+	we can exclude certain parts of the working directory through it.
+	It allows definiting a logical connection between the files to be committed.
