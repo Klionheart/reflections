@@ -15,3 +15,9 @@ How can you use the staging area to make sure you have one commit per logical ch
 	Even if you have modified a bunch of unrelated file, you can only add some of them to the
 	staging area for a commit. This makes it possible to divide the changes into several commits
 	that only change logically related files.
+	
+What are some situations when branches would be helpful in keeping your history organized? 
+How would branches help?
+
+	If you want to try out a change while keeping a "main" version and make other, minor changes to it.
+	Or you can just split the work into two logical parts.
