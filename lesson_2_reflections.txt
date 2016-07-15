@@ -21,3 +21,8 @@ How would branches help?
 
 	If you want to try out a change while keeping a "main" version and make other, minor changes to it.
 	Or you can just split the work into two logical parts.
+	
+How do the diagrams help you visualize the branch structure?
+
+	Diagrams show at a glance what is connected to what, and what is separate. This is going to
+	most likely become important as the tree of commits gets more and more complicated.
