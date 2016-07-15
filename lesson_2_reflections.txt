@@ -26,3 +26,16 @@ How do the diagrams help you visualize the branch structure?
 
 	Diagrams show at a glance what is connected to what, and what is separate. This is going to
 	most likely become important as the tree of commits gets more and more complicated.
+	
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	All changes relative to the last common branch will be applied. References to commits from both branches
+	will be kept in chronological order. The branch we started from when we did the commit will become the 
+	new unified branch, but the secondary branches will remain until deleted.
+	The diagram shows this by having the new unified branch with multiple parents, which is reasonable.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	Automatic merging saves a *lot* of time when the changes are well-separated, so in those cases
+	it's much better than doing it manually. However, too much automatic merging can wreck havok 
+	to code if it merges conflicting changes incorrectly.
