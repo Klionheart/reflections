@@ -30,3 +30,9 @@ What is the benefit of having a copy of the last known state of the remote store
 	allows for the easy use of diff and log to examine the differences with your local state.
 	It's also the only way to do it if you plan to go offline in the forest like Caroline while 
 	exploring those differences ;)
+	
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+	Assuming no other kind of version control used, and a physical separation, we'd probably 
+	be stuck exchanging emails and snippets of the changes that need to be manually applied to
+	local code. It would certainly be harder without the automation that Git provides.
