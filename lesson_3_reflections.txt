@@ -13,3 +13,14 @@ with your remote repository?
 	We might want to start a project that is based on a remote source, but will then evolve separatedly.
 	Or people might be working on the same files you are, and with automatic pulling conflicts might occur.
 	In general, it's about having more control on how you organize the project.
+	
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+	Branches are used within a repository to make changes separatedly from the main "timeline". 
+	They are usually made to test out features or patches.
+	Clones are copies of an entire repository(and all its branches). They are usually made to obtain 
+	a local copy of a remote repository, but could be used to copy a local repository too, for example
+	to add another level of backup redundancy.
+	Forks are, in essence, clones, but happen purely remotely. It's a feature of GitHub, allowing
+	people to create their own copy of a project without modifying anything from the original.
+	
