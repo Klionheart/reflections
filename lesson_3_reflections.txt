@@ -1,0 +1,8 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+  I can think of two cases:
+   1. When you are working on a project from multiple devices, for example the office PC, the home PC, 
+    and a laptop while travelling. Having a central repository "in the cloud" will massively help with
+    syncing the work.
+   2. When multiple people are working on the same project. Unless they also share the project computer,
+    a centralized repository is crucial to organize the different contributions.
