@@ -6,3 +6,10 @@ When would you want to use a remote repository rather than keeping all your work
     syncing the work.
    2. When multiple people are working on the same project. Unless they also share the project computer,
     a centralized repository is crucial to organize the different contributions.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date 
+with your remote repository?
+
+	We might want to start a project that is based on a remote source, but will then evolve separatedly.
+	Or people might be working on the same files you are, and with automatic pulling conflicts might occur.
+	In general, it's about having more control on how you organize the project.
